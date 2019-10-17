@@ -6,4 +6,5 @@ public interface AdminMapper
 	public int aa();
 	public int bb();
 
+
 }
