@@ -10,7 +10,7 @@ public class HousekeepingApplication
 	public static void main(String[] args)
 	{
 
-		System.out.println("asdsads");
+
 		SpringApplication.run(HousekeepingApplication.class, args);
 	}
 
