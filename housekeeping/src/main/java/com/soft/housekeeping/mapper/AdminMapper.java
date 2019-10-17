@@ -7,4 +7,5 @@ public interface AdminMapper
 	public int bb();
 	public int cc();
 
+
 }
