@@ -6,6 +6,7 @@ public interface AdminMapper
 	public int aa();
 	public int bb();
 	public int cc();
+	public int dd();
 
 
 }
