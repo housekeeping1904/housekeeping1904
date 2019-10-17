@@ -9,4 +9,5 @@ public interface AdminMapper
 	public int dd();
 
 
+
 }
