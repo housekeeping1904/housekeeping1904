@@ -8,4 +8,5 @@ public interface AdminMapper
 	public int cc();
 	public int dd();
 
+
 }
