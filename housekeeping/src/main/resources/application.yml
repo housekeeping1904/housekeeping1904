@@ -31,5 +31,18 @@ spring:
       prefix: /
     pathmatch:
       use-suffix-pattern: true
+
+  servlet:
+    multipart:
+      maxFileSize: -1
+      maxRequestSize: -1
+
 mybatis:
-  mapper-locations: classpath*:/mapper/*.xml
+  mapper-locations: classpath:/mapper/*/*.xml
+
+logging:
+  level:
+    com:
+      soft:
+        housekeeping:
+          mapper: debug
